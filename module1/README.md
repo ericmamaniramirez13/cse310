@@ -12,8 +12,8 @@ I used variables, conditional statements, lists, index, functions, and a class t
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](https://www.w3schools.com/python/default.asp)
-* [Web Site Name](https://docs.python.org/3.8/library/index.html)
+* [w3schools](https://www.w3schools.com/python/default.asp)
+* [docs.python](https://docs.python.org/3.8/library/index.html)
 
 # Future Work
 
