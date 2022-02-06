@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="@color/teal_700"
+        android:text="Go"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/bar_timer"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:progress="45"
+        android:progressTint="@color/design_default_color_error"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bar_timer" />
+
+    <TextView
+        android:id="@+id/text_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bar_timer" />
+
+    <TextView
+        android:id="@+id/text_questions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/text_score"
+        app:layout_constraintStart_toEndOf="@+id/text_timer"
+        app:layout_constraintTop_toBottomOf="@+id/bar_timer" />
+
+    <TableLayout
+        android:layout_width="0dp"
+        android:layout_height="500dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_questions">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/answer1"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:background="#f1c40f"
+                android:text="Button"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/answer2"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:background="#e67e22"
+                android:text="Button"
+                android:textColor="@color/white" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/answer3"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:background="#f39c12"
+                android:text="Button"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/answer4"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:background="#d35400"
+                android:text="Button"
+                android:textColor="@color/white" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/bottom_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
