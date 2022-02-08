@@ -22,7 +22,7 @@ public class Question {
 
         this.answer_position = random_number.nextInt(4);
         this.false_answers = new int[] {0,1,2,3};
-
+        //Options for our buttons
         this.false_answers[0] = answer + 1;
         this.false_answers[1] = answer + 10;
         this.false_answers[2] = answer - 5;

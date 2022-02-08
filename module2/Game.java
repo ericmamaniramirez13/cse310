@@ -24,7 +24,7 @@ public class Game {
         total_questions++;
         questions.add(current_question);
     }
-
+    //Counter for our right and wrong answers to get a score
     public boolean check_answer(int submitted_answer){
         boolean correct;
         if (current_question.getAnswer() == submitted_answer){

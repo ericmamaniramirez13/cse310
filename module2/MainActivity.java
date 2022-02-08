@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //Asigning values and text for our buttons
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -39,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         View.OnClickListener startButtonClickListener =  new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //The running of the game
                 android.widget.Button start_button = (android.widget.Button) v;
                 start_button.setVisibility(View.INVISIBLE);
                 next_problems();
@@ -76,12 +78,12 @@ public class MainActivity extends AppCompatActivity {
         answer2.setText(Integer.toString(answer[1]));
         answer3.setText(Integer.toString(answer[2]));
         answer4.setText(Integer.toString(answer[3]));
-
+        //Enable our buttons to work
         answer1.setEnabled(true);
         answer2.setEnabled(true);
         answer3.setEnabled(true);
         answer4.setEnabled(true);
-
+        //Final statement for our final score
         text_questions.setText(g.getCurrent_question().getQuestion_Phrase());
     }
 }
