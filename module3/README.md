@@ -1,7 +1,6 @@
 # Overview
 
-This software is based on data analisys. I worked on a dataset of the firepower each country has as of 2022. I wanted to see which countries have more power in specific fields like 
-who has more tanks, helicopters etc. Also, I wanted to visualize the data resuls by showing graphs of the results.
+This software is based on data analisys. I worked on a dataset of the firepower each country has as of 2022. I wanted to see which countries have more power in specific fields like who has more tanks, helicopters etc. Also, I wanted to visualize the data resuls by showing graphs of the results.
 
 [Software Demo Video](https://youtu.be/TDOP-JoJLMs)
 
@@ -11,8 +10,7 @@ Some of the questions I had were:
 What countries have more tanks?
 What countries have more attack helicopters?
 How much of the total population for each country is an acctive personnel?
-I got all the snwers in my software and I was very impressed for the results for exmaple I learned that The United Stated is the country with more attacj helicopters and North Korea
-is the country with higher proportion of population serving as active personnel.
+I got all the answers in my software and was very impressed for the results for exmaple I learned that The United Stated is the country with more attack helicopters and North Korea is the country with higher proportion of population serving as active personnel.
 
 # Development Environment
 
