@@ -14,7 +14,7 @@ I got all the answers in my software and was very impressed for the results for 
 
 # Development Environment
 
-I Used Jupyter Notebook, which is very similar to python but with the only difference that here we work in cells where we need to run each cell instead of the whole code at once.
+I Used Jupyter Notebook, which is very similar to python but with the only difference that here we work in cells where we need to run each cell instead of the whole code at once. I used libraries like pandas and altair.
 
 # Useful Websites
 
