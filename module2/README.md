@@ -1,30 +1,23 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+My software is very visual since it is an app of 100% java (no kotlin). I focused on a math app since that is something my team and I are currently working on. We want to develop a math app and this basic app is kind of something we want to do but way better. It involves classes and also, android studio resources to make the app work.
 
-{Provide a description the software that you wrote to demonstrate the Java language.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/mG3cJKVZ29Q)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+I worked on the andrioid studio environment since it was easier than weking on vscode for the code and android studio for the app. 
 
-{Describe the programming language that you used and any libraries.}
+I used the next libraries: random, List, and arraylist. 
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [W3Schools](https://www.w3schools.com/java/default.asp)
+* [Wikipedia](https://en.wikipedia.org/wiki/Java_(programming_language))
 
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* I need to improve on my comments.
+* Improve performance by using better names for my variables
