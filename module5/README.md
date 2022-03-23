@@ -1,7 +1,5 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
-
 {This game takes includes: }
 *User Interface including Graphics and Sound
 *Event Processing (Keyboard)
@@ -10,7 +8,7 @@
 
 {I always wanted to learn the basics of creating a game and this was a great opportunity wher I learned to create the base interface for a game from creating the window interface to give the objects funtionality.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/M31kekwNLG4)
 
 # Development Environment
 
