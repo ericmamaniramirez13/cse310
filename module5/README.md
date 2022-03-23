@@ -16,7 +16,6 @@
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [PiGame Official Website](https://www.pygame.org/news)
 * [PiGame tutorial from geeksforgeeks](https://www.geeksforgeeks.org/pygame-tutorial/)
 
